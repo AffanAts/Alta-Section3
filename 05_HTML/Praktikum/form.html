@@ -9,12 +9,63 @@
 <body>
     <h1>Buat Account Baru!</h1>
     <h2>Sign Up Form</h2>
-    <div class="form">
-        <Label for="first-name">First name:</Label>
-        <input id="first-name" name="firstname" type="text">
-        <style>
-            
-        </style>
-    </div>
+    <form>
+        <div class="name">
+            <div class="first">
+                <Label for="first-name">First name:</Label><br>
+                <input id="first-name" name="firstname" type="text">
+            </div><br>
+            <div class="last">
+                <Label for="last-name">Last name:</Label><br>
+                <input id="last-name" name="lastname" type="text">
+            </div>
+        </div><br>
+        <div class="gender">
+            <label>Gender:</label>
+            <div>
+                <input type="radio" id="male" name="male" value="male">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input type="radio" id="female" name="female" value="female">
+                <label for="female">female</label>
+            </div>
+            <div>
+                <input type="radio" id="other" name="other" value="other">
+                <label for="other">Other</label>
+            </div>
+        </div><br>
+        <div class="Nasionality">
+            <label for="negara">Nasionality:</label><br>
+                <select name="negara" id="negara">
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="United State">United State</option>
+                    <option value="Korea">Korea</option>
+                    <option value="Jepang">Jepang</option>
+                </select>
+        </div><br>
+        <div class="Bahasa">
+            <label>Language Spoken:</label>
+            <div>
+                <input type="checkbox" id="indonesia" name="Indonesia" value="Indonesia">
+                <label for="Indonesia">Indonesia</label>
+            </div>
+            <div>
+                <input type="checkbox" id="english" name="english" value="english">
+                <label for="english">English</label>
+            </div>
+            <div>
+                <input type="checkbox" id="other" name="other" value="other">
+                <label for="other">Other</label>
+            </div>
+        </div><br>
+        <div class="bio">
+            <label for="Bio">Bio:</label><br>
+            <textarea name="Biodata" id="Bio" cols="30" rows="10">
+            </textarea>
+        </div>
+        <a href="welcome.html"><input type="button" id="SignUp" value="Sign up"></a>
+    </form>
+
 </body>
 </html>
