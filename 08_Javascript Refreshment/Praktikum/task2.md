@@ -1,4 +1,4 @@
-<img src="../Screenshot/task1.png" width="200">
+<img src="../Screenshot/task1.png" width="600">
 
 2. Jawablah pertanyaan dibawah sesuai dengan materi yang telah dijelaskan.
 
