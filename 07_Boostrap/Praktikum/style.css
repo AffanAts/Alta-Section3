@@ -1,0 +1,28 @@
+.navbar-brand span{
+    color: green !important;
+}
+
+.ps-5{
+    padding-left: 200px !important;
+}
+
+.pe-5{
+    padding-right: 100px !important;
+}
+
+.welcome-text{
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.text-p{
+    padding: 0px 50px !important;
+}
+
+.intro-image{
+    margin: 0px 0px !important;
+}
+
+.font-size{
+    font-size: 13px !important;
+}
