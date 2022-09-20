@@ -1,0 +1,23 @@
+header{
+    background-color: #e6f2e4;
+    padding: 14px;
+    border-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+ul{
+    font-size: 20px;
+    list-style-type: none;
+}
+
+li{
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-right: 75%;
+}
+
+.lineThrough{
+    text-decoration: line-through;
+}
