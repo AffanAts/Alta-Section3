@@ -15,11 +15,6 @@ const Header = (props) => {
       <Link className="nav-link active" to="/">Home</Link>
       <Link className="nav-link active" to="/about">About App</Link>
       <Link className="nav-link active" to="/author">About Author</Link>
-        {/* 
-        <a className="nav-link active" href="/index">Home</a>
-        <a className="nav-link active" href="/aboutApp">About App</a>
-        <a className="nav-link active" href="/index">About Author</a>
-        */}
       </div>
     </div>
   </div>
