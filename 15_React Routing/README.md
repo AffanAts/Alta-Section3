@@ -14,7 +14,7 @@
 
 ### Perbedaan Link dan Redirect
                  Link                                 Redirect                      
---------------------------------------- -------------------------------------
+-------- -------- ------- ------- --------- -------- --------- --------- ------- ------
 1.Dapat digunakan pada kondisi apapun   1.Lebih sering digunakan pada halaman 404
 2.Memberikan history baru pada browser  2.Menimpa history pada browser
 3.Bereaksi dengan click seperti a href  3.Bereaksi dengan suatu kondisi
