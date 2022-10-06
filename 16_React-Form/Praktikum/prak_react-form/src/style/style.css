@@ -1,0 +1,36 @@
+span{
+    color:red;
+}
+
+.form-case {
+    display:block;
+    width:1296px;
+}
+
+.container{
+    border-radius: 20px;
+    border-color: black;
+}
+
+.btn-smt{
+    background-color: green;
+    margin-right: 10px;
+    color: white;
+    border-radius: 7px;
+    border-color: transparent;
+    padding:0px 30px;
+    margin-top:10px;
+}
+
+.btn-rst{
+    background-color:red;
+    color: white;
+    border-radius: 7px;
+    border-color: transparent;
+    padding:0px 30px;
+    margin-top:10px;
+}
+
+center{
+    margin-bottom: 30px;
+}
