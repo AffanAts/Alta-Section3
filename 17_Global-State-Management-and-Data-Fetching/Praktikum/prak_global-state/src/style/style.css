@@ -1,0 +1,39 @@
+header {
+    padding: 30px;
+    text-align: justify;
+    background-color: aqua;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.titles {
+    color: forestgreen;
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: center;
+}
+
+.list-group {
+    list-style: none
+}
+
+.form-check-label {
+    margin:0px 50px;
+}
+
+.notFoundimage{
+    height: 200px;
+    display: inline-block;
+}
+
+.backToHome{
+    margin:0px 420px;
+    margin-top: 40px;
+}
+
+.done{
+    text-decoration: line-through;
+}
