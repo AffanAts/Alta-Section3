@@ -1,4 +1,3 @@
-import Search from './Search/Search';
 import NameForm from './FormCoding/FormCoding';
 import './App.css';
 
