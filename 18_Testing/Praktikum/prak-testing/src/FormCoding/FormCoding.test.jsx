@@ -47,17 +47,17 @@ describe('NameForm', () => {
             { name: /kelas/i }
         )
         userEvent.selectOptions(programClass, "reactjs")
+        
         //Image Upload
-        const imageFile = new File(
-            ["formtesting"],
-            "formtesting.pdf",
-            { name: /surat kesungguhan/i },
-            {type: "image/*,.pdf"}
+        const imageFile = new File(["formtesting"], "formtesting.pdf",
+            { name: /surat kesungguhan/i }, {type: "image/*,.pdf"}
         )
         const imageInput = screen.getByLabelText(/Foto Surat Kesungguhan/)
-        expect(imageInput.files.length).toBe(0)
         userEvent.upload(imageInput, imageFile)
-        expect(imageInput.files.length).toBe(1)
+
+        expect(imageInput.files[0]).toStrictEqual(imageFile)
+        expect(imageInput.files.item(0)).toStrictEqual(imageFile)
+        expect(imageInput.files).toHaveLength(1)
 
         //TextArea
         fireEvent.input(
