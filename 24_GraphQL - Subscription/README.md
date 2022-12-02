@@ -7,10 +7,13 @@ Subscriptions are a GraphQL feature that allows a server to send data to its cli
 1. Install subscriptions-transport-ws to enable websocket connection yarn add @apollo/client subscriptions-transport-ws
 2. Import all needed modules and separate between http and websocket link
 
+```javascript
 import { ApolloClient, InMemoryCache} from '@apollo/client';
 import { split, HttpLink } from '@apollo/client';
 import { getMainDefinition } from '@apollo/client/utilities';
 import { WebSocketLink } from '@apollo/client/link/ws';
+```
+
 3. Create httpLink for query and mutation. And wsLink for subscription. Add header for authentication. Get this link from your hasura console. WsLink use wss:// instead of https:// because wsLink use websocket.. Note that wss is more secure than ws, just like https is more secure than http.
 4. Add split function and use as link when create client. Split function used to combine those two Links into a single Link that uses one or the other according to the type of operation being executed . When operation is equal subscription then use wsLink, if not then use httpLink for query and mutation
 5. Import useSubscription from apollo client and define subscription
