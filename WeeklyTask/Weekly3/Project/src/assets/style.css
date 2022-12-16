@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+.footer-logo img{
+    width: 40px;
+    margin-top: -15px;
+}
+
+.carousel-item img{
+    width: 1500px;
+    height: 500px;
+}
+
+
+.poppins-font{
+    font-family: 'Poppins', sans-serif;
+}
